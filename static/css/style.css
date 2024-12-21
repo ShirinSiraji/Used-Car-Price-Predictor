@@ -1,0 +1,51 @@
+/* static/css/style.css */
+
+/* Body background with color */
+body {
+    background-image: url("/static/css/white-solid-background-pumtn8lreyutu2ru.jpg");
+    background-color: #ffffff; /* Fallback background color */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the background image */
+}
+
+
+/* Card background color */
+.card {
+    background-image: url("/static/css/Porsche-in-blau.webp");
+    background-color: #ffffff; /* Fallback background color */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the background image */
+}
+
+/* Header font styles */
+.card-header h1 {
+    font-family: Garamond, serif;
+    font-size: 60px;
+}
+
+/* Paragraph font styles */
+.card-body p {
+    color: #555555;
+    font-family: 'Times New Roman', serif;
+}
+
+/* Button styles */
+.btn-primary {
+    background-color: #007bff;
+    color: #ffffff;
+    border-color: #007bff;
+    font-family: 'Times New Roman', serif;
+}
+
+/* Form input styles */
+.form-control {
+    border-color: #ced4da;
+    font-family: 'Times New Roman', serif;
+}
+
+/* Prediction font styles */
+#prediction {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
